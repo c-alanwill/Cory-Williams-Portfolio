@@ -3,257 +3,261 @@
 }
 
 /* header */
-  header {
-    padding: 40px;
-    font-size: 48px;
-    letter-spacing: 2px;
-    color: rgb(62, 61, 61);
-  }
+header {
+  padding: 40px;
+  font-size: 48px;
+  letter-spacing: 2px;
+  color: rgb(62, 61, 61);
+}
 
 
-  #portfolio-text {
-    color:rgb(163, 161, 161);
-    letter-spacing: 3px;
-  }
+#portfolio-text {
+  color:rgb(163, 161, 161);
+  letter-spacing: 3px;
+}
 
-  nav {
-    display: flex;
-    background-color: rgb(62, 61, 61);
-    max-width: 1900px;
-  }
+nav {
+  display: flex;
+  background-color: rgb(62, 61, 61);
+  max-width: 1900px;
+}
   
-  nav a {
-    color: rgb(91, 90, 90);
-    font-size: 18px;
-    padding: 18px 38px;
-    margin-left: 6px;
-    text-decoration: none;
-    text-align: left;
-    color: white;
+nav a {
+  color: rgb(91, 90, 90);
+  font-size: 18px;
+  padding: 18px 38px;
+  margin-left: 6px;
+  text-decoration: none;
+  text-align: left;
+  color: white;
+}
+
+/* hero image */
+.hero {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 75px; 
+  max-width: 1900px;
+}
+
+/* body */
+main {
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%
+}
+
+/* about */
+#about {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.about-heading { 
+  align-items: flex-start;
+  text-align: end;
+  font-size: 30px;
+  letter-spacing: 2px;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.vl {
+  align-items: stretch;
+  border-right: 3px solid grey;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.about-details {
+  font-size: 20px;
+  flex: 0 1 80%;
+  max-width: 1000px;
+  margin-right: 130px;
+}
+
+/* work */
+#work {
+  display: flex;
+  width: 90%;
+  margin-bottom: 100px;
+}
+
+.work-heading {
+  align-items: flex-start;
+  text-align: end;
+  font-size: 30px;
+  letter-spacing: 2px;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.italian-food-project {
+  flex: 0 1 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* design */
+#design {
+  display: flex;
+  width: 90%;
+  margin-bottom: 100px;
+}
+
+.design-heading {
+  align-items: flex-start;
+  text-align: end;
+  font-size: 30px;
+  letter-spacing: 2px;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.yosemite {
+  flex: 0 1 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.travel {
+  flex: 0 1 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* contact */
+#contact {
+  display: flex;
+  width: 90%;
+  margin-bottom: 100px;
+}
+
+.contact-heading {
+  align-items: flex-start;
+  text-align: end;
+  font-size: 30px;
+  letter-spacing: 2px;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.contact-details {
+  font-size: 20px;
+  flex: 0 1 80%;
+  max-width: 1000px;
+}
+
+.cory-profile-photo {
+  flex: 0 1 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* resume */
+#resume {
+  display: flex;
+  width: 90%;
+  margin-bottom: 100px;
+}
+
+.resume-heading {
+  align-items: flex-start;
+  text-align: end;
+  font-size: 30px;
+  letter-spacing: 2px;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.resume-details {
+  font-size: 20px;
+  flex: 0 1 80%;
+  max-width: 1000px;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
   }
 
-  /* hero image */
-  .hero {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    margin-bottom: 75px; 
-    max-width: 1900px;
-  }
+#about {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
 
-  /* body */
+.about-heading { 
+  margin-left: -42px;
+  margin-bottom: 30px;
+}
 
-  main {
-    color: black;
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%
-  }
+.about-details{
+  margin-left: 60px;
+}
+#work {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
 
-  #about {
-    display: flex;
-    margin-bottom: 100px;
-  }
+.work-heading { 
+  margin-left: -56px;
+  margin-bottom: 30px;
+}
 
-  .about-heading { 
-    align-items: flex-start;
-    text-align: end;
-    font-size: 30px;
-    letter-spacing: 2px;
-    min-width: 200px;
-    max-width: 200px;
-  }
- 
-  .vl {
-    align-items: stretch;
-    border-right: 3px solid grey;
-    margin-left: 60px;
-    margin-right: 60px;
-  }
+.italian-food-project {
+  margin-left: 60px;
+}  
+#design {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
 
-  .about-details {
-    font-size: 20px;
-    flex: 0 1 80%;
-    max-width: 1000px;
-    margin-right: 130px;
-  }
+.design-photos {
+  margin-left: 60px;
+}
 
-  #work {
-    display: flex;
-    width: 90%;
-    margin-bottom: 100px;
-  }
+#contact {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
 
-  .work-heading {
-    align-items: flex-start;
-    text-align: end;
-    font-size: 30px;
-    letter-spacing: 2px;
-    min-width: 200px;
-    max-width: 200px;
-  }
+.contact-heading { 
+  margin-left: -12px;
+  margin-bottom: 30px;
+}
+.contact-details{
+  margin-left: 60px;
+}
 
-  .italian-food-project {
-    flex: 0 1 100%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
+#resume {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
 
-  #design {
-    display: flex;
-    width: 90%;
-    margin-bottom: 100px;
-  }
+.resume-heading { 
+  margin-left: -12px;
+  margin-bottom: 30px;
+}
 
-  .design-heading {
-    align-items: flex-start;
-    text-align: end;
-    font-size: 30px;
-    letter-spacing: 2px;
-    min-width: 200px;
-    max-width: 200px;
-  }
+.resume-details{
+  margin-left: 60px;
+}
 
-  .yosemite {
-    flex: 0 1 100%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-right: 20px;
-  }
 
-  .travel {
-    flex: 0 1 100%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-
-  #contact {
-    display: flex;
-    width: 90%;
-    margin-bottom: 100px;
-  }
-
-  .contact-heading {
-    align-items: flex-start;
-    text-align: end;
-    font-size: 30px;
-    letter-spacing: 2px;
-    min-width: 200px;
-    max-width: 200px;
-  }
-
-  .contact-details {
-    font-size: 20px;
-    flex: 0 1 80%;
-    max-width: 1000px;
-  }
-
-  .cory-profile-photo {
-    flex: 0 1 100%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-
-  #resume {
-    display: flex;
-    width: 90%;
-    margin-bottom: 100px;
-  }
-
-  .resume-heading {
-    align-items: flex-start;
-    text-align: end;
-    font-size: 30px;
-    letter-spacing: 2px;
-    min-width: 200px;
-    max-width: 200px;
-  }
-
-  .resume-details {
-    font-size: 20px;
-    flex: 0 1 80%;
-    max-width: 1000px;
-    line-height: 1.4;
-  }
-
-  @media screen and (max-width: 768px) {
-    nav {
-      flex-direction: column;
-    }
-
-    #about {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 100px;
-    }
- 
-    .about-heading { 
-      margin-left: -42px;
-      margin-bottom: 30px;
-    }
-
-    .about-details{
-      margin-left: 60px;
-    }
-    #work {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 100px;
-    }
-
-    .work-heading { 
-      margin-left: -56px;
-      margin-bottom: 30px;
-    }
-
-    .italian-food-project {
-      margin-left: 60px;
-    }  
-      #design {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 100px;
-      }
-
-    .design-photos {
-      margin-left: 60px;
-    }
-
-    #contact {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 100px;
-    }
- 
-    .contact-heading { 
-      margin-left: -12px;
-      margin-bottom: 30px;
-    }
-    .contact-details{
-      margin-left: 60px;
-    }
-
-    #resume {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 100px;
-    }
- 
-    .resume-heading { 
-      margin-left: -12px;
-      margin-bottom: 30px;
-    }
-
-    .resume-details{
-      margin-left: 60px;
-    }
-
-    
-    .vl {
-      display: none;
-    }
-  }
+.vl {
+  display: none;
+}
+}
