@@ -258,6 +258,7 @@ nav a {
 }
 
 .image-title {
+  font-size: 35px;
   left: 27px;
  
 }
@@ -271,6 +272,7 @@ nav a {
 .design-heading { 
   margin-left: -70px;
   margin-bottom: 30px;
+
 }
 
 .img-container {
