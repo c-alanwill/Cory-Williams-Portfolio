@@ -18,6 +18,10 @@
 
 * The css uses flexbox, media quaries and CSS variables.
 
+* The nav uses a hover state when hovering over the links.
+
+* Added titles to the various projects.  These are not links as I haven't created any coding projects of my own prior to this.
+
 
 ## Installation
 

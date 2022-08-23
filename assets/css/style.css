@@ -1,3 +1,9 @@
+
+:root {
+  --white: #fff;
+}
+
+
 * {
     font-family: Helvetica, Arial, sans-serif;
     max-width: 1600px;
@@ -32,6 +38,11 @@ nav a {
   text-decoration: none;
   text-align: left;
   color: white;
+}
+
+nav a:hover {
+  background-color: var(--white);
+  color: rgb(62, 61, 61);
 }
 
 /* hero image */
@@ -99,10 +110,13 @@ main {
   flex-basis: 98%;
 }
 
-.italian-food-project {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+.image-title {
+  position: relative;
+  bottom: -340px;
+  left: 25px;
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 4px rgb(105, 103, 103) ;
 }
 
 /* design */
@@ -217,6 +231,10 @@ nav a {
   margin-left: -20px;
 }
 
+.hero {
+  min-height: 300px; 
+}
+
 #about {
   display: flex;
   flex-direction: column;
@@ -243,6 +261,11 @@ nav a {
   margin-bottom: 30px;
 }
 
+.image-title {
+  left: 50px;
+ 
+}
+
 #design {
   display: flex;
   flex-direction: column;
@@ -257,7 +280,7 @@ nav a {
 .img-container {
   min-height: 400px;
   min-width: auto;
-  margin-left: -80px;
+  margin-left: -10px;
   margin-bottom: 30px;
   background-repeat: no-repeat;
 	background-size: cover;
@@ -304,7 +327,6 @@ nav a {
   margin-left: 22px;
   margin-right: 22px;
 }
-
 
 .vl {
   display: none;
