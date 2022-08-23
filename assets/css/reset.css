@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 3px dotted red;
   }
   
 /* Gives body element a parent height to compare against */

@@ -1,5 +1,6 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
+    max-width: 1600px;
 }
 
 /* header */
@@ -8,6 +9,7 @@ header {
   font-size: 48px;
   letter-spacing: 2px;
   color: rgb(62, 61, 61);
+  width: 100%;
 }
 
 
@@ -19,7 +21,7 @@ header {
 nav {
   display: flex;
   background-color: rgb(62, 61, 61);
-  max-width: 1900px;
+  width: 100%;
 }
   
 nav a {
@@ -38,7 +40,7 @@ nav a {
   height: 100%;
   width: 100%;
   margin-bottom: 75px; 
-  max-width: 1900px;
+  width: 100%;
 }
 
 /* body */
@@ -46,12 +48,13 @@ main {
   color: black;
   display: flex;
   flex-wrap: wrap;
-  width: 90%
+  width: 100%;
 }
 
 /* about */
 #about {
   display: flex;
+  width: 100%;
   margin-bottom: 100px;
 }
 
@@ -73,15 +76,12 @@ main {
 
 .about-details {
   font-size: 20px;
-  flex: 0 1 80%;
-  max-width: 1000px;
-  margin-right: 130px;
 }
 
 /* work */
 #work {
   display: flex;
-  width: 90%;
+  width: 100%;
   margin-bottom: 100px;
 }
 
@@ -94,8 +94,9 @@ main {
   max-width: 200px;
 }
 
-.work-photo {
-  flex: 0 1 100%;
+#pasta-parent {
+  background-image: url('../images/italian_food_recipes_site.jpg');
+  flex-basis: 98%;
 }
 
 .italian-food-project {
@@ -107,10 +108,9 @@ main {
 /* design */
 #design {
   display: flex;
-  width: 90%;
+  width: 100%;
   margin-bottom: 100px;
 }
-
 
 .design-heading {
   align-items: flex-start;
@@ -121,26 +121,24 @@ main {
   max-width: 200px;
 }
 
-.design-photos {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .img-container {
-  min-height: 200px;
-  max-height: 200px;
-  flex-basis: 48%;
-  background-size: 100%;
+  min-height: 400px;
+  min-width: auto;
+  margin: 0 1%;
+  margin-left: 0px;
+  flex-basis: 50%;
+  background-repeat: no-repeat;
+	background-size: cover;
+  border-radius: 10px;
 }
 
 #yosemite-parent {
   background-image: url("../images/yosemite.jpg")
-}
+  }
 
 #travel-parent {
   background-image: url("../images/Travel_Polynesia.jpg");
 }
-
 
 .yosemite {
   width: 100%;
@@ -149,16 +147,11 @@ main {
   margin-right: 20px;
 }
 
-.travel {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
 
 /* contact */
 #contact {
   display: flex;
-  width: 90%;
+  width: 100%;
   margin-bottom: 100px;
 }
 
@@ -173,21 +166,24 @@ main {
 
 .contact-details {
   font-size: 20px;
-  flex: 0 1 80%;
-  max-width: 1000px;
 }
 
-.cory-profile-photo {
-  flex: 0 1 100%;
-  max-width: 100%;
-  height: auto;
+#cory-parent {
+  background-image: url("../images/cory_profile.jpg"); 
+}
+.img-container-cory {
+  min-height: 300px;
+  min-width: 350px;
+  margin: 0 1%;
+  margin-left: 0px;
+	background-size: cover;
   border-radius: 10px;
 }
 
 /* resume */
 #resume {
   display: flex;
-  width: 90%;
+  width: 100%;
   margin-bottom: 100px;
 }
 
@@ -203,7 +199,6 @@ main {
 .resume-details {
   font-size: 20px;
   flex: 0 1 80%;
-  max-width: 1000px;
   line-height: 1.4;
 }
 
@@ -220,12 +215,13 @@ main {
 }
 
 .about-heading { 
-  margin-left: -42px;
+  margin-left: -64px;
   margin-bottom: 30px;
 }
 
 .about-details{
-  margin-left: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 #work {
   display: flex;
@@ -234,7 +230,7 @@ main {
 }
 
 .work-heading { 
-  margin-left: -56px;
+  margin-left: -78px;
   margin-bottom: 30px;
 }
 
@@ -247,8 +243,20 @@ main {
   margin-bottom: 100px;
 }
 
-.design-photos {
-  margin-left: 60px;
+.design-heading { 
+  margin-left: -45px;
+  margin-bottom: 30px;
+}
+
+.img-container {
+  min-height: 400px;
+  min-width: auto;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+	background-size: cover;
+  border-radius: 10px;
 }
 
 #contact {
@@ -258,11 +266,24 @@ main {
 }
 
 .contact-heading { 
-  margin-left: -12px;
+  margin-left: -24px;
   margin-bottom: 30px;
 }
 .contact-details{
-  margin-left: 60px;
+  margin-left: 56px;
+  margin-bottom: 30px;
+}
+
+.img-container-cory {
+  min-height: 550px;
+  min-width: 300px;
+  margin: 0 1%;
+  margin-left: -8px;
+  margin-right: 40px;
+  flex-basis: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
 }
 
 #resume {
@@ -272,12 +293,13 @@ main {
 }
 
 .resume-heading { 
-  margin-left: -12px;
+  margin-left: -23px;
   margin-bottom: 30px;
 }
 
 .resume-details{
-  margin-left: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 
