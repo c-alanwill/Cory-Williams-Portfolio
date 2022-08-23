@@ -1,5 +1,6 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
+    max-width: 1600px;
 }
 
 /* header */
@@ -203,9 +204,18 @@ main {
 
 /* media screen */
 @media screen and (max-width: 768px) {
-  nav {
-    flex-direction: column;
-  }
+  
+header {
+  margin-left: -25px;
+}
+  
+nav {
+  flex-direction: column;
+}
+
+nav a {
+  margin-left: -20px;
+}
 
 #about {
   display: flex;
@@ -214,13 +224,13 @@ main {
 }
 
 .about-heading { 
-  margin-left: -64px;
+  margin-left: -90px;
   margin-bottom: 30px;
 }
 
 .about-details{
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 16px;
+  margin-right: 22px;
 }
 #work {
   display: flex;
@@ -229,13 +239,10 @@ main {
 }
 
 .work-heading { 
-  margin-left: -78px;
+  margin-left: -100px;
   margin-bottom: 30px;
 }
 
-.italian-food-project {
-  margin-left: 60px;
-}  
 #design {
   display: flex;
   flex-direction: column;
@@ -243,19 +250,18 @@ main {
 }
 
 .design-heading { 
-  margin-left: -45px;
+  margin-left: -70px;
   margin-bottom: 30px;
 }
 
 .img-container {
   min-height: 400px;
   min-width: auto;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: -80px;
   margin-bottom: 30px;
   background-repeat: no-repeat;
 	background-size: cover;
-  border-radius: 10px;
+  border-radius: 1px;
 }
 
 #contact {
@@ -265,24 +271,22 @@ main {
 }
 
 .contact-heading { 
-  margin-left: -24px;
+  margin-left: -56px;
   margin-bottom: 30px;
 }
 .contact-details{
-  margin-left: 56px;
+  margin-left: 20px;
   margin-bottom: 30px;
 }
 
 .img-container-cory {
   min-height: 550px;
   min-width: 300px;
-  margin: 0 1%;
-  margin-left: -8px;
-  margin-right: 40px;
+  margin-left: -105px;
   flex-basis: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10px;
+  border-radius: 1px;
 }
 
 #resume {
@@ -292,13 +296,13 @@ main {
 }
 
 .resume-heading { 
-  margin-left: -23px;
+  margin-left: -53px;
   margin-bottom: 30px;
 }
 
 .resume-details{
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 22px;
+  margin-right: 22px;
 }
 
 
