@@ -31,9 +31,7 @@ The code used on this page is HTML and CSS.  There is an index.html file to view
 
 The following image demonstrates the web application's appearance and functionality:
 
-NEED TO PUT AN IMAGE OF PAGE ONCE FINISHED.
-
-![Horiseon refactored web page](./Develop/assets/images/horiseon-webpage.jpg)
+![Cory web page](./assets/images/cory-webpage.jpg)
 
 ## Credits
 
