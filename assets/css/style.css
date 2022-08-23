@@ -231,10 +231,6 @@ nav a {
   margin-left: -20px;
 }
 
-.hero {
-  min-height: 300px; 
-}
-
 #about {
   display: flex;
   flex-direction: column;
