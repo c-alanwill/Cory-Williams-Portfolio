@@ -105,8 +105,8 @@ main {
   max-width: 200px;
 }
 
-#pasta-parent {
-  background-image: url("../images/italian_food_recipes_site.jpg");
+#horiseon-parent {
+  background-image: url("../images/Horiseon.jpg");
   flex-basis: 98%;
 }
 
@@ -116,7 +116,7 @@ main {
   left: 25px;
   font-size: 30px;
   color: white;
-  text-shadow: 2px 2px 4px rgb(105, 103, 103) ;
+  text-shadow: 2px 2px 4px rgb(105, 103, 103);
 }
 
 /* design */

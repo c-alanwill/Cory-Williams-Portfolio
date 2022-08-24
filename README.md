@@ -8,6 +8,8 @@
 
 * There is a header for Cory's name.  There is a navbar with links to sections of the page.  When a link is selected the UI scrolls to the corresponding section to the page.
 
+* Under work, clicking on the Horiseon image opens a link to the Horiseon project.  Note: there are no links to the 2 mock design projects as these projects have yet to be created.
+
 * Notes were applied to the HTML code to identify each section of code for the header, hero image and section within the body.
 
 * Alt attributes were added for each image in the HTML text to provide a description if for some reason the user cannot view the image due to a slow connection, an error in the src attribute, or if the user uses a screen reader.
@@ -18,9 +20,7 @@
 
 * The css uses flexbox, media quaries and CSS variables.
 
-* The nav uses a hover state when hovering over the links.
-
-* Added titles to the various projects.  These are not links as I haven't created any coding projects of my own prior to this.
+* The nav uses a hover state when hovering over the navigation links.
 
 
 ## Installation
@@ -35,7 +35,7 @@ The code used on this page is HTML and CSS.  There is an index.html file to view
 
 The following image demonstrates the web application's appearance and functionality:
 
-![Cory web page](./assets/images/cory-webpage.jpg)
+![Cory web page](./assets/images/cory-profile.jpg)
 
 ## Credits
 
