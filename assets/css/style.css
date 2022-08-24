@@ -3,14 +3,9 @@
   --white: #fff;
 }
 
-
 * {
     font-family: Helvetica, Arial, sans-serif;
-}
-
-.wrapper {
-  max-width: 1600px;
-  margin: 0 auto;
+    max-width: 1600px;
 }
 
 /* header */
@@ -166,7 +161,6 @@ main {
   margin-right: 20px;
 }
 
-
 /* contact */
 #contact {
   display: flex;
@@ -217,7 +211,6 @@ main {
 
 .resume-details {
   font-size: 16px;
-  flex: 0 1 80%;
   line-height: 1.4;
 }
 
@@ -278,7 +271,6 @@ nav a {
 .design-heading { 
   margin-left: -70px;
   margin-bottom: 30px;
-
 }
 
 .img-container {
