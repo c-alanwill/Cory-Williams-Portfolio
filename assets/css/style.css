@@ -105,8 +105,8 @@ main {
   max-width: 200px;
 }
 
-#horiseon-parent {
-  background-image: url("../images/Horiseon.jpg");
+#translator-parent {
+  background-image: url("../images/translator.png");
   flex-basis: 98%;
 }
 
@@ -259,8 +259,7 @@ nav a {
 .image-title {
   font-size: 30px;
   left: 27px;
- 
-}
+ }
 
 #design {
   display: flex;
