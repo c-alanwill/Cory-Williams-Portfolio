@@ -3,6 +3,10 @@
   --white: #fff;
 }
 
+body {
+  max-width: 1350px;
+}
+
 * {
     font-family: Helvetica, Arial, sans-serif;
     max-width: 1600px;
