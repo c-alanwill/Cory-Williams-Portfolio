@@ -114,6 +114,11 @@ main {
   flex-basis: 98%;
 }
 
+#bookaholics-parent {
+  background-image: url("../images/bookaholics.png");
+  flex-basis: 98%;
+}
+
 .image-title {
   position: relative;
   bottom: -340px;
@@ -337,3 +342,4 @@ nav a {
 text-align: center;
 font-size: 16px;
 padding: 30px;
+}
